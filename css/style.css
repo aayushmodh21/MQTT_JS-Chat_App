@@ -1,0 +1,125 @@
+body{
+	font-family: "Roboto", Helvetica, Arial, sans-sarif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+	background-color: #f0f0f0;
+	margin-top: 20px;
+}
+
+.chat-window {
+	border: 1px;
+	border-color: gray;
+	border-radius: 7px;
+	box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+	height: 80vh;
+}
+.chat-window-text {
+	overflow-y: auto;
+	overflow-x: auto;
+	height: 100%;
+	background-color: #ffffff;
+}
+.user-sidepane {
+	height: 100%;
+	border-left: 1px solid #c3c3c3;
+	background-color: #f6f6f6;
+	overflow-y: auto;
+	overflow-x: auto;
+	height: 100%;
+}
+.padding-fix {
+	margin-top: 5%;
+}
+
+
+/* ---------------------------------------- */
+
+.panel.sidebar-menu{
+	box-sizing: border-box;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+.panel.sidebar-menu.main{
+	box-sizing: border-box;
+	box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.panel.sidebar-menu ul.nav.user-menu{
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: #337ab7;
+}
+.panel.sidebar-menu h3{
+	padding: 5px 0;
+	margin: 0;
+}
+.panel-body{
+	overflow: auto;
+  	/* white-space: nowrap; */
+}
+.panel-body-user{
+	overflow: auto;
+  	/* white-space: nowrap; */
+	height: 19vh;
+	padding: 15px;
+}
+
+.input-group{
+	width: 100%;
+}
+.form-group .input-group input{
+	border: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.panel-window .chat-window {
+	border: 1px;
+	border-color: gray;
+	border-radius: 7px;
+	box-shadow: -2px 0 3px #ddd;
+}
+
+.chat-window-body{
+	height: 70vh;
+    background-image: url('/image/back.png');
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+	overflow-x:hidden;
+    overflow-y:visible;
+}
+.panel-foot .input-group .input-group-btn button{
+	height: 50px;
+}
+.panel-foot .input-group > input{
+	height: 50px;
+}
+
+
+/* -------------------------------------------------- */
+
+.chat__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.chat__receiver{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+.chat__name{
+    position: absolute;
+    top: -15px;
+    font-weight: 600;
+    font-size: x-small;
+
+}
+.chat__timestamp{
+    margin-left: 10px;
+    font-size: xx-small;
+    color: lightslategray;
+}
